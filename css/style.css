@@ -1,6 +1,5 @@
 body {
   background-color: #EAF6F6;
-  font-family: sans-serif;
   text-align: center;
 }
 
@@ -24,6 +23,7 @@ hr {
 margin-top: 100px;
 padding: 50px 0 20px;
 }
+
 img{
   position: relative;
   width: auto;
@@ -37,16 +37,21 @@ img{
   color: #145374;
 }
 
-h1 {
+.CS {
   color: #145374;
-  font-size: 4rem;
+  font-size: 2rem;
+  font-family: 'Motserrat', sans-serif;
+  text-decoration: none;
+
+
 }
-h3 {
-  color: #66BFBF;
+h2 {
+  color: #145374;
+  font-family: 'Motserrat', sans-serif;
+  font-size: 1rem;
+
 }
-.Curb{
-  text-decoration: underline;
-}
+
 .footer-link {
   color: #a2d5f2;
   font-family: 'Motserrat', sans-serif;
@@ -59,4 +64,5 @@ h3 {
 .footnote{
   color: #EAF6F6;
   font-size: 0.75rem;
+  padding: 20px 0;
 }
